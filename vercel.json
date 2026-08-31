@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/palmcity",
+      "destination": "https://farmland.stephenakintayofoundation.org/"
+    },
+    {
+      "source": "/palmcity/:path*",
+      "destination": "https://farmland.stephenakintayofoundation.org/:path*"
+    }
+  ]
+}
