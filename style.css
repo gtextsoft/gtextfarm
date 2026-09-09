@@ -120,7 +120,7 @@ nav {
 
 .hero {
     min-height: 100vh;
-    background: linear-gradient(rgba(11, 37, 27, 0.72), rgba(11, 37, 27, 0.58)), url('images/hero_farm_landscape.png');
+    background: linear-gradient(rgba(11, 37, 27, 0.66), rgba(11, 37, 27, 0.48)), url('images/farm-to-factory-banner.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -240,6 +240,10 @@ section {
     text-align: left;
 }
 
+.section-left p {
+    margin-left: 0;
+}
+
 .section-header h2 {
     font-size: clamp(1.7rem, 3vw, 2.6rem);
     color: var(--primary-green);
@@ -332,6 +336,19 @@ section {
 
 .ops-section {
     background: linear-gradient(180deg, #f0f5f2 0%, #e7efe9 100%);
+}
+
+.ops-banner {
+    margin: 0 auto 2.4rem;
+    border-radius: 0.9rem;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    box-shadow: 0 18px 40px rgba(15, 32, 25, 0.12);
+}
+
+.ops-banner img {
+    width: 100%;
+    display: block;
 }
 
 .process-grid {
@@ -443,10 +460,29 @@ footer {
 
 .page-hero {
     padding: 140px 8% 60px;
-    background: linear-gradient(rgba(11, 37, 27, 0.82), rgba(11, 37, 27, 0.72)), url('images/hero_farm_landscape.png');
+    background: linear-gradient(rgba(11, 37, 27, 0.78), rgba(11, 37, 27, 0.66)), url('images/farm-to-factory-banner.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
+}
+
+.page-hero-production {
+    background: linear-gradient(rgba(11, 37, 27, 0.72), rgba(11, 37, 27, 0.58)), url('images/production-scale-banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.page-visual {
+    margin-top: 2rem;
+    border-radius: 0.9rem;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    box-shadow: 0 18px 40px rgba(15, 32, 25, 0.12);
+}
+
+.page-visual img {
+    width: 100%;
+    display: block;
 }
 
 .page-kicker {
