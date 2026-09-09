@@ -16,6 +16,14 @@
     {
       "source": "/chalcedonypalmcity/",
       "destination": "/palmcity/index.html"
+    },
+    {
+      "source": "/poultry",
+      "destination": "/poultry/index.html"
+    },
+    {
+      "source": "/poultry/",
+      "destination": "/poultry/index.html"
     }
   ]
 }
