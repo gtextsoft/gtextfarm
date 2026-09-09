@@ -8,6 +8,14 @@
     {
       "source": "/palmcity/",
       "destination": "/palmcity/index.html"
+    },
+    {
+      "source": "/chalcedonypalmcity",
+      "destination": "/chalcedonypalmcity/index.html"
+    },
+    {
+      "source": "/chalcedonypalmcity/",
+      "destination": "/chalcedonypalmcity/index.html"
     }
   ]
 }
