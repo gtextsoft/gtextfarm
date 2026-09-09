@@ -11,11 +11,11 @@
     },
     {
       "source": "/chalcedonypalmcity",
-      "destination": "/chalcedonypalmcity/index.html"
+      "destination": "/palmcity/index.html"
     },
     {
       "source": "/chalcedonypalmcity/",
-      "destination": "/chalcedonypalmcity/index.html"
+      "destination": "/palmcity/index.html"
     }
   ]
 }
