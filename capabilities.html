@@ -9,98 +9,149 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <nav>
-        <div class="logo-container">
-            <span class="brand-name">GTEXT FARMS</span>
-        </div>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
-        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="company.html">Company</a></li>
-            <li><a href="capabilities.html" class="nav-active">Capabilities</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="industries.html">Industries</a></li>
-            <li><a href="/palmcity">Palmcity</a></li>
-            <li><a href="/poultry">Poultry</a></li>
-            <li><a href="contact.html" class="cta-nav">Partner With Us</a></li>
-        </ul>
-    </nav>
+    <a class="skip" href="#main">Skip to content</a>
 
-    <header class="page-hero page-hero-production">
-        <p class="page-kicker">Operational Strength</p>
-        <h1>Integrated Capabilities for End-to-End Food Delivery</h1>
-        <p>Our capabilities are designed to support quality, volume, and consistency from farm-level operations to final
-            customer delivery.</p>
+    <header class="mast">
+        <div class="mast__bar">
+            <p>A subsidiary of Gtext Holdings · Nigeria</p>
+            <p>
+                <a href="tel:+2347063649172">+234 706 364 9172</a>
+                ·
+                <a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a>
+            </p>
+        </div>
+        <div class="mast__inner">
+            <a class="brand" href="index.html">Gtext <span>Farms</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="site-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="capabilities.html" class="is-active">Capabilities</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="/palmcity">Palmcity</a></li>
+                    <li><a href="/poultry">Poultry</a></li>
+                    <li><a href="contact.html" class="cta-nav">Partner with us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="page-content">
-        <div class="capabilities-grid">
-            <div class="capability-card">
-                <div class="capability-icon"><i class="fas fa-seedling"></i></div>
-                <h3>Primary Cultivation</h3>
-                <p>Crop planning, grower coordination, and production scheduling for dependable raw supply.</p>
+    <main id="main">
+        <header class="page-hero">
+            <div class="page-hero__media">
+                <img src="images/production-scale-banner.jpg" alt="Gtext Farms production line">
             </div>
-            <div class="capability-card">
-                <div class="capability-icon"><i class="fas fa-industry"></i></div>
-                <h3>Post-Harvest Processing</h3>
-                <p>Structured handling, sorting, cleaning, and grading for market-ready products.</p>
+            <div class="page-hero__shade"></div>
+            <div class="page-hero__copy">
+                <p class="kicker">Capabilities</p>
+                <h1>End-to-end, on one line.</h1>
+                <p class="lede">Quality, volume, and consistency from farm-level work through to the customer gate.</p>
             </div>
-            <div class="capability-card">
-                <div class="capability-icon"><i class="fas fa-box-open"></i></div>
-                <h3>Packaging and Labeling</h3>
-                <p>Retail and bulk pack formats optimized for handling, shelf life, and channel needs.</p>
-            </div>
-            <div class="capability-card">
-                <div class="capability-icon"><i class="fas fa-warehouse"></i></div>
-                <h3>Storage Management</h3>
-                <p>Batch control and stock rotation to maintain freshness and reduce operational losses.</p>
-            </div>
-            <div class="capability-card">
-                <div class="capability-icon"><i class="fas fa-shield-alt"></i></div>
-                <h3>Quality Assurance</h3>
-                <p>Inspection routines across sourcing, processing, packaging, and dispatch checkpoints.</p>
-            </div>
-            <div class="capability-card">
-                <div class="capability-icon"><i class="fas fa-truck-loading"></i></div>
-                <h3>Nationwide Logistics</h3>
-                <p>Coordinated delivery plans for repeat orders and large-scale institutional fulfillment.</p>
-            </div>
-        </div>
-    </section>
+        </header>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-col">
-                <h4 class="brand-name footer-brand">GTEXT FARMS</h4>
-                <p>A Subsidiary of Gtext Holdings</p>
-                <p>Integrated food production, processing, and supply company serving Nigeria's growing demand.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Capabilities</h4>
-                <p>Cultivation | Processing | Packaging | Storage | Quality Assurance | Distribution</p>
-            </div>
-            <div class="footer-col">
-                <h4>Contact Info</h4>
-                <p>Email: Info@gtextfarms.com</p>
-                <p>Phone/WhatsApp: +2347063649172</p>
-            </div>
+        <div class="rail">
+            <section class="band band--snow">
+                <div class="wrap">
+                    <div class="spec-grid" data-stagger>
+                        <article class="spec">
+                            <span class="spec__n">01 / Cultivation</span>
+                            <h3>Primary growing</h3>
+                            <p>Crop planning, grower coordination, and production schedules for dependable raw supply.</p>
+                        </article>
+                        <article class="spec">
+                            <span class="spec__n">02 / Processing</span>
+                            <h3>Post-harvest handling</h3>
+                            <p>Structured sorting, cleaning, and grading so harvest leaves as a market-ready product.</p>
+                        </article>
+                        <article class="spec">
+                            <span class="spec__n">03 / Pack</span>
+                            <h3>Packaging and labeling</h3>
+                            <p>Retail and bulk packs set for handling, shelf life, and the channel that will take them.</p>
+                        </article>
+                        <article class="spec">
+                            <span class="spec__n">04 / Storage</span>
+                            <h3>Stock control</h3>
+                            <p>Batch tracking and rotation to hold freshness and cut avoidable loss.</p>
+                        </article>
+                        <article class="spec">
+                            <span class="spec__n">05 / Quality</span>
+                            <h3>Assurance</h3>
+                            <p>Inspection at sourcing, processing, packaging, and dispatch — not only at the gate.</p>
+                        </article>
+                        <article class="spec">
+                            <span class="spec__n">06 / Logistics</span>
+                            <h3>Nationwide dispatch</h3>
+                            <p>Delivery plans for repeat orders and large institutional fulfillment windows.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="band band--paper">
+                <div class="wrap">
+                    <div class="section-head" data-reveal>
+                        <p class="kicker">Sequence</p>
+                        <h2>How work moves</h2>
+                    </div>
+                    <div class="steps" data-stagger>
+                        <article class="step">
+                            <span class="step__n">01</span>
+                            <h3>Source</h3>
+                            <p>Field control and input planning lock the raw material standard.</p>
+                        </article>
+                        <article class="step">
+                            <span class="step__n">02</span>
+                            <h3>Grade</h3>
+                            <p>Each category is sorted and checked before it is packed.</p>
+                        </article>
+                        <article class="step">
+                            <span class="step__n">03</span>
+                            <h3>Hold</h3>
+                            <p>Stock is batched and rotated until the load is called.</p>
+                        </article>
+                        <article class="step">
+                            <span class="step__n">04</span>
+                            <h3>Dispatch</h3>
+                            <p>Scheduled fulfillment for contracts that repeat.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Gtext Farms. Professional Food Production. Trusted Delivery. Sustainable Growth.</p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <a class="brand" href="index.html">Gtext <span>Farms</span></a>
+                    <p>A subsidiary of Gtext Holdings. Integrated food production, processing, and supply for Nigeria.</p>
+                </div>
+                <div>
+                    <span class="footer-label">Operations</span>
+                    <p>Cultivation · Processing · Packaging · Storage · Quality · Distribution</p>
+                </div>
+                <div>
+                    <span class="footer-label">Contact</span>
+                    <p><a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a></p>
+                    <p><a href="tel:+2347063649172">+234 706 364 9172</a></p>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2026 Gtext Farms. Food production. Scheduled delivery.</p>
         </div>
     </footer>
+
+    <script src="site.js"></script>
 </body>
 
 </html>

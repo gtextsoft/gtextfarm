@@ -10,83 +10,118 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <div class="logo-container">
-            <span class="brand-name">GTEXT FARMS</span>
-        </div>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
-        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="company.html">Company</a></li>
-            <li><a href="capabilities.html">Capabilities</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="industries.html" class="nav-active">Industries</a></li>
-            <li><a href="/palmcity">Palmcity</a></li>
-            <li><a href="/poultry">Poultry</a></li>
-            <li><a href="contact.html" class="cta-nav">Partner With Us</a></li>
-        </ul>
-    </nav>
+    <a class="skip" href="#main">Skip to content</a>
 
-    <header class="page-hero">
-        <p class="page-kicker">Service Sectors</p>
-        <h1>Industry-Focused Supply Partnerships</h1>
-        <p>We provide structured food supply services for multiple market segments with different volume and delivery
-            needs.</p>
+    <header class="mast">
+        <div class="mast__bar">
+            <p>A subsidiary of Gtext Holdings · Nigeria</p>
+            <p>
+                <a href="tel:+2347063649172">+234 706 364 9172</a>
+                ·
+                <a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a>
+            </p>
+        </div>
+        <div class="mast__inner">
+            <a class="brand" href="index.html">Gtext <span>Farms</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="site-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="capabilities.html">Capabilities</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="industries.html" class="is-active">Industries</a></li>
+                    <li><a href="/palmcity">Palmcity</a></li>
+                    <li><a href="/poultry">Poultry</a></li>
+                    <li><a href="contact.html" class="cta-nav">Partner with us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="page-content">
-        <div class="industries-grid">
-            <div class="industry-item">
-                <h3>Retail and Supermarkets</h3>
-                <p>Consistent stock support and grade-based product supply for stores and retail chains.</p>
+    <main id="main">
+        <header class="page-hero">
+            <div class="page-hero__media">
+                <img src="images/farm-to-factory-banner.jpg" alt="Gtext Farms supply operations">
             </div>
-            <div class="industry-item">
-                <h3>Hospitality and Food Service</h3>
-                <p>Scheduled supply for hotels, restaurants, caterers, and central kitchen operators.</p>
+            <div class="page-hero__shade"></div>
+            <div class="page-hero__copy">
+                <p class="kicker">Industries</p>
+                <h1>Supply, by the buyer’s calendar.</h1>
+                <p class="lede">Different volumes. Different drop windows. The same operating standard.</p>
             </div>
-            <div class="industry-item">
-                <h3>Schools and Institutions</h3>
-                <p>Dependable supply structure for feeding programs and institutional procurement cycles.</p>
-            </div>
-            <div class="industry-item">
-                <h3>Distributors and Wholesalers</h3>
-                <p>Volume-based fulfillment support for channel partners and regional distribution markets.</p>
-            </div>
-        </div>
-    </section>
+        </header>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-col">
-                <h4 class="brand-name footer-brand">GTEXT FARMS</h4>
-                <p>A Subsidiary of Gtext Holdings</p>
-                <p>Integrated food production, processing, and supply company serving Nigeria's growing demand.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Capabilities</h4>
-                <p>Cultivation | Processing | Packaging | Storage | Quality Assurance | Distribution</p>
-            </div>
-            <div class="footer-col">
-                <h4>Contact Info</h4>
-                <p>Email: Info@gtextfarms.com</p>
-                <p>Phone/WhatsApp: +2347063649172</p>
-            </div>
+        <div class="rail">
+            <section class="band band--snow">
+                <div class="wrap">
+                    <div class="industry-list" data-stagger>
+                        <article class="industry">
+                            <h3>Retail and supermarkets</h3>
+                            <p>Grade-based stock for stores and chains that need shelves filled on a cycle, not a scramble.</p>
+                        </article>
+                        <article class="industry">
+                            <h3>Hospitality and food service</h3>
+                            <p>Scheduled supply for hotels, restaurants, caterers, and central kitchen operators.</p>
+                        </article>
+                        <article class="industry">
+                            <h3>Schools and institutions</h3>
+                            <p>Dependable structure for feeding programs and institutional procurement.</p>
+                        </article>
+                        <article class="industry">
+                            <h3>Distributors and wholesalers</h3>
+                            <p>Volume fulfillment for channel partners and regional markets.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="band band--field">
+                <div class="wrap contact-grid" data-reveal>
+                    <div class="section-head">
+                        <p class="kicker">Next</p>
+                        <h2>Tell us the channel</h2>
+                        <p>Share volume, pack format, and delivery window. We will confirm what the line can hold.</p>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn--solid" href="contact.html">Open a supply enquiry</a>
+                        <a class="btn btn--ghost" href="mailto:Info@gtextfarms.com">Email the team</a>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Gtext Farms. Professional Food Production. Trusted Delivery. Sustainable Growth.</p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <a class="brand" href="index.html">Gtext <span>Farms</span></a>
+                    <p>A subsidiary of Gtext Holdings. Integrated food production, processing, and supply for Nigeria.</p>
+                </div>
+                <div>
+                    <span class="footer-label">Operations</span>
+                    <p>Cultivation · Processing · Packaging · Storage · Quality · Distribution</p>
+                </div>
+                <div>
+                    <span class="footer-label">Contact</span>
+                    <p><a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a></p>
+                    <p><a href="tel:+2347063649172">+234 706 364 9172</a></p>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2026 Gtext Farms. Food production. Scheduled delivery.</p>
         </div>
     </footer>
+
+    <script src="site.js"></script>
 </body>
 
 </html>

@@ -10,97 +10,116 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <nav>
-        <div class="logo-container">
-            <span class="brand-name">GTEXT FARMS</span>
-        </div>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
-        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="company.html" class="nav-active">Company</a></li>
-            <li><a href="capabilities.html">Capabilities</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="industries.html">Industries</a></li>
-            <li><a href="/palmcity">Palmcity</a></li>
-            <li><a href="/poultry">Poultry</a></li>
-            <li><a href="contact.html" class="cta-nav">Partner With Us</a></li>
-        </ul>
-    </nav>
+    <a class="skip" href="#main">Skip to content</a>
 
-    <header class="page-hero">
-        <p class="page-kicker">About The Company</p>
-        <h1>Building Trusted Food Systems Across Nigeria</h1>
-        <p>Gtext Farms is a subsidiary of Gtext Holdings focused on integrated food production, processing, and
-            reliable supply for commercial and institutional markets.</p>
+    <header class="mast">
+        <div class="mast__bar">
+            <p>A subsidiary of Gtext Holdings · Nigeria</p>
+            <p>
+                <a href="tel:+2347063649172">+234 706 364 9172</a>
+                ·
+                <a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a>
+            </p>
+        </div>
+        <div class="mast__inner">
+            <a class="brand" href="index.html">Gtext <span>Farms</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="site-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company.html" class="is-active">Company</a></li>
+                    <li><a href="capabilities.html">Capabilities</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="/palmcity">Palmcity</a></li>
+                    <li><a href="/poultry">Poultry</a></li>
+                    <li><a href="contact.html" class="cta-nav">Partner with us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="page-content">
-        <div class="section-header section-left">
-            <h2>Who We Are</h2>
-        </div>
-        <p>Our organization combines agriculture, post-harvest operations, quality assurance, packaging, and logistics
-            into one professional operating model. We serve a broad demand base, from households to high-volume buyers,
-            while maintaining consistent product standards and transparent communication.</p>
-        <br>
-        <p>By strengthening local sourcing and reducing inefficiencies in the value chain, we support food security,
-            responsible production, and long-term economic impact.</p>
-        <div class="page-visual">
-            <img src="images/farm-to-factory-banner.jpg" alt="Gtext Farms farm-to-factory operations from cultivation to processing">
-        </div>
-    </section>
+    <main id="main">
+        <header class="page-hero">
+            <div class="page-hero__media">
+                <img src="images/farm-to-factory-banner.jpg" alt="Gtext Farms farm-to-factory operations">
+            </div>
+            <div class="page-hero__shade"></div>
+            <div class="page-hero__copy">
+                <p class="kicker">Company</p>
+                <h1>A food company, not a farm stand.</h1>
+                <p class="lede">Gtext Farms is a Gtext Holdings subsidiary built for integrated production, processing, and reliable supply to commercial buyers.</p>
+            </div>
+        </header>
 
-    <section class="page-content alt-section">
-        <div class="section-header section-left">
-            <h2>Vision and Mission</h2>
-        </div>
-        <div class="process-grid">
-            <div class="process-step">
-                <span>Vision</span>
-                <h3>Leading Food Production Partner</h3>
-                <p>To become one of Nigeria's most trusted and efficient food production and supply companies.</p>
-            </div>
-            <div class="process-step">
-                <span>Mission</span>
-                <h3>Consistent, Safe, and Scalable Supply</h3>
-                <p>To deliver quality food products through disciplined operations, strong partnerships, and
-                    sustainability-driven growth.</p>
-            </div>
-        </div>
-    </section>
+        <div class="rail">
+            <section class="band band--snow">
+                <div class="wrap split" data-reveal>
+                    <div class="split--copy">
+                        <p class="kicker">Who we are</p>
+                        <h2>One model from field to crate</h2>
+                        <p>Agriculture, post-harvest work, quality checks, packaging, and logistics sit in a single operating model. We serve households and high-volume buyers with the same standard: product that arrives as specified.</p>
+                        <p>By tightening local sourcing and cutting waste in the chain, we support food security and a supply line buyers can forecast.</p>
+                    </div>
+                    <div class="frame">
+                        <img src="images/farm-to-factory-banner.jpg" alt="Cultivation through processing at Gtext Farms">
+                    </div>
+                </div>
+            </section>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-col">
-                <h4 class="brand-name footer-brand">GTEXT FARMS</h4>
-                <p>A Subsidiary of Gtext Holdings</p>
-                <p>Integrated food production, processing, and supply company serving Nigeria's growing demand.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Capabilities</h4>
-                <p>Cultivation | Processing | Packaging | Storage | Quality Assurance | Distribution</p>
-            </div>
-            <div class="footer-col">
-                <h4>Contact Info</h4>
-                <p>Email: Info@gtextfarms.com</p>
-                <p>Phone/WhatsApp: +2347063649172</p>
-            </div>
+            <section class="band band--paper">
+                <div class="wrap">
+                    <div class="section-head" data-reveal>
+                        <p class="kicker">Direction</p>
+                        <h2>Vision and mission</h2>
+                    </div>
+                    <div class="spec-grid" data-stagger>
+                        <article class="spec">
+                            <span class="spec__n">Vision</span>
+                            <h3>A trusted production partner</h3>
+                            <p>To be among Nigeria's most reliable food production and supply companies — measured by delivery, not slogans.</p>
+                        </article>
+                        <article class="spec">
+                            <span class="spec__n">Mission</span>
+                            <h3>Safe, consistent, scalable</h3>
+                            <p>To move quality food through disciplined operations, clear partnerships, and production that can grow without losing the standard.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Gtext Farms. Professional Food Production. Trusted Delivery. Sustainable Growth.</p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <a class="brand" href="index.html">Gtext <span>Farms</span></a>
+                    <p>A subsidiary of Gtext Holdings. Integrated food production, processing, and supply for Nigeria.</p>
+                </div>
+                <div>
+                    <span class="footer-label">Operations</span>
+                    <p>Cultivation · Processing · Packaging · Storage · Quality · Distribution</p>
+                </div>
+                <div>
+                    <span class="footer-label">Contact</span>
+                    <p><a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a></p>
+                    <p><a href="tel:+2347063649172">+234 706 364 9172</a></p>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2026 Gtext Farms. Food production. Scheduled delivery.</p>
         </div>
     </footer>
+
+    <script src="site.js"></script>
 </body>
 
 </html>

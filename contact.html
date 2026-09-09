@@ -9,75 +9,101 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <div class="logo-container">
-            <span class="brand-name">GTEXT FARMS</span>
-        </div>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
-        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="company.html">Company</a></li>
-            <li><a href="capabilities.html">Capabilities</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="industries.html">Industries</a></li>
-            <li><a href="/palmcity">Palmcity</a></li>
-            <li><a href="/poultry">Poultry</a></li>
-            <li><a href="contact.html" class="cta-nav">Partner With Us</a></li>
-        </ul>
-    </nav>
+    <a class="skip" href="#main">Skip to content</a>
 
-    <header class="page-hero">
-        <p class="page-kicker">Contact</p>
-        <h1>Start a Supply Partnership with Gtext Farms</h1>
-        <p>Speak with our team for procurement support, bulk pricing, and customized supply planning.</p>
+    <header class="mast">
+        <div class="mast__bar">
+            <p>A subsidiary of Gtext Holdings · Nigeria</p>
+            <p>
+                <a href="tel:+2347063649172">+234 706 364 9172</a>
+                ·
+                <a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a>
+            </p>
+        </div>
+        <div class="mast__inner">
+            <a class="brand" href="index.html">Gtext <span>Farms</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="site-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="capabilities.html">Capabilities</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="/palmcity">Palmcity</a></li>
+                    <li><a href="/poultry">Poultry</a></li>
+                    <li><a href="contact.html" class="cta-nav is-active">Partner with us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="page-content">
-        <div class="contact-card">
-            <h2>Corporate Enquiries</h2>
-            <p><strong>Phone / WhatsApp:</strong> +2347063649172</p>
-            <p><strong>Email:</strong> Info@gtextfarms.com</p>
-            <p><strong>Available For:</strong> Retail supply, hospitality, institutional procurement, and wholesale
-                partnerships.</p>
-            <div class="hero-btns">
-                <a href="https://wa.me/2347063649172" class="btn btn-primary">Chat on WhatsApp</a>
-                <a href="mailto:Info@gtextfarms.com" class="btn btn-primary">Send an Email</a>
+    <main id="main">
+        <header class="page-hero">
+            <div class="page-hero__media">
+                <img src="images/production-scale-banner.jpg" alt="Gtext Farms operations">
             </div>
-        </div>
-    </section>
+            <div class="page-hero__shade"></div>
+            <div class="page-hero__copy">
+                <p class="kicker">Contact</p>
+                <h1>Speak with supply.</h1>
+                <p class="lede">Procurement, bulk pricing, and scheduled supply planning.</p>
+            </div>
+        </header>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-col">
-                <h4 class="brand-name footer-brand">GTEXT FARMS</h4>
-                <p>A Subsidiary of Gtext Holdings</p>
-                <p>Integrated food production, processing, and supply company serving Nigeria's growing demand.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Capabilities</h4>
-                <p>Cultivation | Processing | Packaging | Storage | Quality Assurance | Distribution</p>
-            </div>
-            <div class="footer-col">
-                <h4>Contact Info</h4>
-                <p>Email: Info@gtextfarms.com</p>
-                <p>Phone/WhatsApp: +2347063649172</p>
-            </div>
+        <div class="rail">
+            <section class="band band--snow">
+                <div class="wrap contact-grid" data-reveal>
+                    <div class="split--copy">
+                        <p class="kicker">Corporate enquiries</p>
+                        <h2>What to send</h2>
+                        <p>Product, pack size, volume, and delivery window. The team will confirm availability and terms.</p>
+                        <div class="actions">
+                            <a class="btn btn--solid" href="https://wa.me/2347063649172">Chat on WhatsApp</a>
+                            <a class="btn btn--line" href="mailto:Info@gtextfarms.com">Send an email</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <h2>Direct line</h2>
+                        <p><strong>Phone / WhatsApp</strong><br><a href="tel:+2347063649172">+234 706 364 9172</a></p>
+                        <p><strong>Email</strong><br><a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a></p>
+                        <p><strong>For</strong><br>Retail supply, hospitality, institutional procurement, wholesale partnerships.</p>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Gtext Farms. Professional Food Production. Trusted Delivery. Sustainable Growth.</p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <a class="brand" href="index.html">Gtext <span>Farms</span></a>
+                    <p>A subsidiary of Gtext Holdings. Integrated food production, processing, and supply for Nigeria.</p>
+                </div>
+                <div>
+                    <span class="footer-label">Operations</span>
+                    <p>Cultivation · Processing · Packaging · Storage · Quality · Distribution</p>
+                </div>
+                <div>
+                    <span class="footer-label">Contact</span>
+                    <p><a href="mailto:Info@gtextfarms.com">Info@gtextfarms.com</a></p>
+                    <p><a href="tel:+2347063649172">+234 706 364 9172</a></p>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2026 Gtext Farms. Food production. Scheduled delivery.</p>
         </div>
     </footer>
+
+    <script src="site.js"></script>
 </body>
 
 </html>
