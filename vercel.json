@@ -1,5 +1,17 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/landmonetization",
+      "destination": "https://forms.gle/77xjdjWavVZCvgmb6",
+      "permanent": true
+    },
+    {
+      "source": "/landmonetization/",
+      "destination": "https://forms.gle/77xjdjWavVZCvgmb6",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/palmcity",
